@@ -1,0 +1,22 @@
+{
+  "name": "tyro-qe",
+  "version": "1.0.0",
+  "description": "Automated API testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jing968/Tyro-QE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jing968/Tyro-QE/issues"
+  },
+  "homepage": "https://github.com/jing968/Tyro-QE#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
