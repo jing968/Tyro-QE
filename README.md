@@ -12,6 +12,7 @@ Automated API testing for the tyro developer API endpoints /banking/products and
 `endpoint_test` folder contains test scripts for a specific endpoint
 `config.js` file contains global varaible and utility functions used by test scripts
 `index.js` file contains the function call to the actual test, npm start will run this file.
+`log.txt` file contains a log of previously ran test, showing number of test ran passed and failed, the results are stored using JSON object format for potential thrid party usage
 
 ## Choice of language
 
