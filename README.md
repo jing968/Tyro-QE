@@ -4,8 +4,8 @@ Automated API testing for the tyro developer API endpoints /banking/products and
 
 # Usage
 
-1. npm install to install the only package required to run the test.
-2. Run `node index.js` at the root directory
+1. If for some reason node module is missing, run `npm install` to install package.
+2. Run `node index.js` at the root directory to start up the test script.
 
 ## File Structures
 
@@ -31,6 +31,8 @@ Assumptions made includes:
 
 1. https://public.cdr.tyro.com/cds-au/v1/banking/products is correct API URL
 2. v-x version: 1 is the correct version to use
+3. When extracting a list of term deposit options, the product name contains the phrase "Term Deposit"
+4. When attempting to get information about the product "Tyro Business Loan", there is only one product with the name "Tyro Business Loan"
 
 ## Findings
 

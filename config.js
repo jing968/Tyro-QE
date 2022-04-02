@@ -34,8 +34,8 @@ const checkPassed = (expected, received) => {
 const testReport = () => {
   console.log("All test completed");
   console.log(`Ran ${TestRan} tests`);
-  console.log("Passed: " + TestPassed);
-  console.log("Failed: " + TestFailed);
+  console.log("\x1b[32m%s\x1b[0m", "Passed: " + TestPassed);
+  console.log("\x1b[31m%s\x1b[0m", "Failed: " + TestFailed);
 };
 
 module.exports = {
