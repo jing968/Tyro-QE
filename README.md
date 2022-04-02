@@ -5,7 +5,7 @@ Automated API testing for the tyro developer API endpoints /banking/products and
 # Usage
 
 1. npm install to install the only package required to run the test.
-2. Run `npm start` at the root directory
+2. Run `node index.js` at the root directory
 
 ## File Structures
 
@@ -25,9 +25,16 @@ As specified above, the assessment is completed with JavaScrirpt. There are seve
 
 Although ranges of different API testing frameworks are widly available in the internet (e.g. Chakram, Frisby.js, PactumJS etc.). I wanted to implement the test script without the help of any framework. The use of framework can greatly reduce the work I need to put into the assessment, but it also take away my chance to demonstrate my ability.
 
+## Assumptions
+
+Assumptions made includes:
+
+1. https://public.cdr.tyro.com/cds-au/v1/banking/products is correct API URL
+2. v-x version: 1 is the correct version to use
+
 ## Findings
 
-400 error are mainly returned due to two reasones:
+400 error code are mainly returned due to two reasones:
 
 1. Missing http request header, the x-v header
 2. malformed paramter in request header and / or parameter. For example, invalid page parameter for /banking/products endpoint, decimal value for x-v request header.
