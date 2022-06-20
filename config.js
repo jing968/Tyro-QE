@@ -3,7 +3,8 @@ const fs = require("fs");
 // New line added just to test CODE-QL
 SampleAPI_Key = "testdumppyAPI_key";
 // Config file
-const PRODUCT_URL = "https://public.cdr.tyro.com/cds-au/v1/banking/products";
+const PRODUCT_URL =
+  "https://public.cdr.tyro.com/cds-au/v1/banking/products/key=" + SampleAPI_Key;
 // https://api.cdr.tyro.com/cds-au/v1/banking/products
 //"https://public.cdr.tyro.com/cds-au/v1/banking/products"
 const AXIOS_CONFIG = {
