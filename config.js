@@ -1,5 +1,7 @@
 const fs = require("fs");
 
+// New line added just to test CODE-QL
+SampleAPI_Key = "testdumppyAPI_key";
 // Config file
 const PRODUCT_URL = "https://public.cdr.tyro.com/cds-au/v1/banking/products";
 // https://api.cdr.tyro.com/cds-au/v1/banking/products
